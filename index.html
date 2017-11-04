@@ -1,232 +1,320 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta name="Keywords" content="blog"/>
-    <meta name="Description" content="blog"/>
-    <title>Simple</title>
-    <link rel="shortcut icon" href="/static/favicon.png"/>
-    <link rel="stylesheet" type="text/css" href="main.css" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ismet Said ÇALIK</title>
+    <meta name="description" content="Ismet Said ÇALIK - Personel Home Page - Info">
+    <meta name="author" content="İsmet Said ÇALIK">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/bootstrap-social.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.css" rel="stylesheet">
+    <link href="assets/css/docs.css" rel="stylesheet">
+    <style type="text/css">
+    .panel-heading .accordion-toggle:after {
+        /* symbol for "opening" panels */
+        font-family: 'Glyphicons Halflings';
+        /* essential for enabling glyphicon */
+        content: "\e114";
+        /* adjust as needed, taken from bootstrap.css */
+        float: right;
+        /* adjust as needed */
+        color: grey;
+        /* adjust as needed */
+    }
+
+    .panel-heading .accordion-toggle.collapsed:after {
+        /* symbol for "collapsed" panels */
+        content: "\e080";
+        /* adjust as needed, taken from bootstrap.css */
+    }
+    </style>
+    <!-- Yandex.Metrika counter --> <script type="text/javascript" > (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter46523400 = new Ya.Metrika({ id:46523400, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true, trackHash:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://cdn.jsdelivr.net/npm/yandex-metrica-watch/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/46523400" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
+
 </head>
+
 <body>
-<div class="main">
-    <div class="header">
-        <ul id="pages">
-            <li>
-                <a href="/">home</a>
-            </li>
-            <li>
-                <a href="/#/tags">tags</a>
-            </li>
-            <li>
-                <a href="/#/archive">archive</a>
-            </li>
-        </ul>
-    </div>
-    <div class="wrap-header">
-        <h1>
-        <a href="/" id="title"></a>
-        </h1>
-    </div>
-    <div class="innermain" id="main">
-    </div>
-    <div class="footer">
-        <p>© Copyright 2014 by isnowfy, Designed by isnowfy</p>
-    </div>
-</div>
-<script src="main.js"></script>
-<script id="itemTemplate" type="text/mustache">
-    {{#posts}}
-    <div class="item">
-        <div class="date">
-            <div class="little">
+    <br>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <img alt="Ismet Said Calik" src="./img/13398197.jpg" class="img-circle img-responsive center-block" width="150">
+                <h2 class="text-center">
+				İsmet Said ÇALIK
+			</h2>
+                <blockquote class="text-center">
+                    <p>
+                        Software engineer. @firatedutr 2018, Free software and open source favors. Embedded systems enthusiast
+                    </p> <small><cite>If you are on the right path, that road will always be uphill.</cite></small>
+                </blockquote>
             </div>
-            {{date}}
         </div>
-        <div class="title">
-            <h2>
-                <a href="{{path}}">{{title}}</a>
-            </h2>
+        <div class="row">
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-5">
+                <h2>
+				Education
+			</h2>
+                <div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+			        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+			        Firat University, BSc</a>
+			      </h4>
+                        </div>
+                        <div id="collapse1" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                Faculty of Technology,
+                                <br/> Departmant of Software Engineering,
+                                <br/> <a href="http://firat.edu.tr">http://firat.edu.tr</a>
+                                <br/> 2013 - 2018
+                                <br/> 2.58/4.00
+                                <br/> Elazig, Turkey
+                                <br/>
+                                <a href="https://www.google.com/maps/dir/38.6812647,39.1957355" target="blank">38.6812647,39.1957355</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+			        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+			        Mimar Sinan Anatolian Technical High School</a>
+			      </h4>
+                        </div>
+                        <div id="collapse2" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                Department of Information Technologies,
+                                <br/> Web design and programming,
+                                <br/><a href="http://mimarsinanmtal.meb.k12.tr">http://mimarsinanmtal.meb.k12.tr</a>
+                                <br/>
+                                <a href="./img/HighSchool_.jpg" target="blank">Diploma</a>
+                                <br/> 2009 - 2013
+                                <br/> Beşevler, Ankara, Turkey
+                                <br/>
+                                <a href="https://www.google.com/maps/dir/39.9361483,32.8168062" target="blank">39.9361483,32.8168062</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+			        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+			        Cenk Yakın Middle School</a>
+			      </h4>
+                        </div>
+                        <div id="collapse3" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                2006 - 2009
+                                <br/> Eryaman, Ankara, Turkey
+                                <br/>
+                                <a href="https://www.google.com/maps/dir/39.9361483,32.8168062" target="blank">39.9730675,32.6288947</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+			        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+			        Bülent Okan Primary School</a>
+			      </h4>
+                        </div>
+                        <div id="collapse4" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                2001 - 2006
+                                <br/> Izmir, Turkey
+                                <br/>
+                                <a href="https://www.google.com/maps/dir/38.526704,27.0347267" target="blank">38.526704,27.0347267</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <h2>
+				Experience
+			</h2>
+                <div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+			        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse5">
+			        Bimetri - Intern #2</a>
+			      </h4>
+                        </div>
+                        <div id="collapse5" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                Bimetri Information and Communication Technologies
+                                <br/> Software Company.
+                                <br/><a href="http://bimetri.com">bimetri.com</a>
+                                <br/> (20 days) July - August, 2017
+                                <br/> Bilkent Cyberpark, Ankara, Turkey
+                                <br/>
+                                <a href="https://www.google.com/maps/dir/39.869849,32.7433273" target="blank">39.869849,32.7433273</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+			        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse6">
+			        Minova Company - Intern #1</a>
+			      </h4>
+                        </div>
+                        <div id="collapse6" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                Minova Tech, Telemetry and Vehicle Tracking Systems,
+                                <br/><a href="http://minovateknoloji.com">http://minovateknoloji.com</a>
+                                <br/> (20 days) July - August, 2016
+                                <br/> Ostim, Ankara, Turkey
+                                <br/>
+                                <a href="https://www.google.com/maps/dir/39.9620934,32.7703967" target="blank">39.9620934,32.7703967</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1">
+                </div>
+            </div>
+            <div class="row">
+                <!--<div class="col-md-12">
+					<img alt="QR Barcode" src="./img/barcode.gif" class="img-rounded img-responsive center-block">
+				</div>
+				-->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-5">
+                <h2>
+				Links
+			</h2>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <a href="mailto:ismetsaid.calik@gmail.com" target="blank" class="btn btn-social-icon btn-envelope" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-envelope']);"><span class="fa fa-envelope"></span></a> ismetsaid.calik [at] gmail.com
+                    </div>
+                    <div class="panel-heading">
+                        <a href="mailto:ismetsaid@calik.me" target="blank" class="btn btn-social-icon btn-envelope" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-envelope']);"><span class="fa fa-envelope"></span></a> ismetsaid [at] calik.me
+                    </div>
+                    <div class="panel-heading"><a href="https://github.com/icalik" target="blank" class="btn btn-social-icon btn-github" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-github']);"><span class="fa fa-github"></span></a> Github
+                    </div>
+                    <div class="panel-heading"><a href="https://twitter.com/iscalik" target="blank" class="btn btn-social-icon btn-twitter" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-twitter']);"><span class="fa fa-twitter"></span></a> Twitter</div>
+                    <div class="panel-heading"><a href="https://instagram.com/iscalik" target="blank" class="btn btn-social-icon btn-instagram" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-instagram']);"><span class="fa fa-instagram"></span></a> Instagram</div>
+                    <div class="panel-heading"><a href="https://www.linkedin.com/in/ismetsaidcalik/" target="blank" class="btn btn-social-icon btn-linkedin" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-linkedin']);"><span class="fa fa-linkedin"></span></a> LinkedIn</div>
+                    <div class="panel-heading"><a href="https://www.facebook.com/ismet.said.calik" target="blank" class="btn btn-social-icon btn-facebook" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-facebook']);"><span class="fa fa-facebook"></span></a> Facebook</div>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <h2>
+				Voluntary Work
+			</h2>
+                <div class="panel-group" id="accordion">
+                	<div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+			        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse11">
+			        Nodeschool Elazığ, Founder</a>
+			      </h4>
+                        </div>
+                        <div id="collapse11" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                Founder of Nodeschool Elazığ Branch<br/>
+                                NodeSchool is an open source project run by volunteers with two goals: to create high quality programming curriculum and to host community learning events.
+
+                                <br/>
+                                <a href="https://nodeschool.io/elazig">http://nodeschool.io/elazig</a>
+                                <br/> February 2017 - Today
+                                <br/> Elazig, Turkey
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+			        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse10">
+			        GNU/Linux Pardus ARM Team Lead</a>
+			      </h4>
+                        </div>
+                        <div id="collapse10" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                Pardus, the national operation system, leads the team in ARM team. The aim of the team is to increase and extend the use of such devices by porting Pardus operating system on various single-board computers (SBCs) (Raspberry Pi, Orange Pi) .
+                                <br><a href="pardusarm.com" target="blank">Pardus ARM Offical Page</a>
+                                <br><a href="https://www.youtube.com/watch?v=Vmoasz0hRYM">YouTube Video #1</a>
+                                <br><a href="https://www.youtube.com/watch?v=jz2IfwrPGsI">YouTube Video #2</a>
+                                <br><a href="https://www.youtube.com/watch?v=Hkpi4MO4nvk">YouTube Video #3</a>
+                                <br/> February 2015 - Today
+                                <br/> Remote
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+			        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse8">
+			        GNU/Linux Pardus Universities Representative</a>
+			      </h4>
+                        </div>
+                        <div id="collapse8" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                I worked on Pardus, known as the national operation system, as a representative at Fırat University. I gave advice to students to promote and teach Pardus usage.
+                                <br/> February 2015 - June 2018 (3 Year, 4 Mo)
+                                <br/> Elazig, Turkey
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+			        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse9">
+			        Elazığ Makerspace</a>
+			      </h4>
+                        </div>
+                        <div id="collapse9" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                Team Lead
+                                <br/> With the support of Fırat Teknokent, it was organized on 15-17 December 2014 with the 'Sen Yap Yap' conference and the maker movement laid its seeds in the east for the first time and then again found itself in Fırat Teknokent and managed by the students, generation production workshop. In the same time, Şuan is also working in Fırat University to set up a student group that focuses on the first and only maker movement of Turkey. facebook.com/elazigms twitter.com/elazigms
+                                <br/> May 2016 - June 2017 (1 Year, 1 Mo)
+                                <br/> Elazig, Turkey
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+			        <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse7">
+			        ACM Fırat Students Community</a>
+			      </h4>
+                        </div>
+                        <div id="collapse7" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                Association for Computing Machinery, Fırat Branch
+                                <br/> Technical Event Coordinator
+                                <br/> September 2014 - May 2015 (8 Mo)
+                                <br/> Elazig, Turkey
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-1">
+                </div>
+            </div>
         </div>
     </div>
-    {{/posts}}
-    <ul class="pages">
-        Pages:
-        {{#pages}}
-            <li>
-            {{#select}}
-                <span class="selected">{{num}}</span>
-            {{/select}}
-            {{^select}}
-                <a href="{{path}}">{{num}}</a>
-            {{/select}}
-            </li>
-        {{/pages}}
-    </ul>
-</script>
-<script id="archiveTemplate" type="text/mustache">
-    {{#group}}
-    {{name}}
-    {{#posts}}
-    <div class="archive">
-    <span>{{date}}</span>
-    <a href="{{path}}">{{title}}</a>
+    <div class="row">
+        <div class="col-md-12">
+            <img alt="QR Barcode" src="./img/barcode.gif" class="img-rounded img-responsive center-block">
+        </div>
     </div>
-    {{/posts}}
-    {{/group}}
-</script>
-<script id="pagesTemplate" type="text/mustache">
-    {{#pages}}
-    <li>
-        <a href="{{path}}">{{title}}</a>
-    </li>
-    {{/pages}}
-</script>
-<script id="tagsTemplate" type="text/mustache">
-    <ul style="list-style: none">
-        {{#tags}}
-        <li style="display:inline; margin: 15px;">
-            <a href="{{path}}" style="font-size: {{size}}%">{{name}}</a>
-        </li>
-        {{/tags}}
-    </ul>
-</script>
-<script>
-$(document).ready(function() {
-    $.ajax({
-        url: "main.json",
-        type: "GET",
-        dataType: "json",
-        success: function(data) {
-            $("#title").html(data.name);
-            data.posts.sort(function(a, b){
-                if (a.date > b.date)
-                    return -1;
-                if (a.date < b.date)
-                    return 1;
-                return 0;
-            });
-            console.log(data.posts);
-            var per = data.number_of_posts_per_page;
-            var n = data.posts.length;
-            var num = Math.floor((n-1)/per)+1;
-            var arr = [];
-            var tmp = [];
-            for (var i = 0; i < n; ++i) {
-                if (i != 0 && i % per == 0) {
-                    arr.push(tmp)
-                    tmp = [];
-                }
-                tmp.push(data.posts[i]);
-            }
-            if (tmp.length > 0)
-                arr.push(tmp);
-            var pages = [{"select": true, "num": 1, "path": "#/page/1"}];
-            for (var i = 1; i < num; ++i)
-                pages.push({"select": false, "num": i+1, "path": "#/page/"+(i+1)});
-            var itemTemplate = Hogan.compile($("#itemTemplate").html());
-            var itemHtml = itemTemplate.render({"posts": arr[0], "pages": pages});
-            $("#main").html(itemHtml);
-            var pagesTemplate = Hogan.compile($("#pagesTemplate").html());
-            var pagesHtml = pagesTemplate.render({"pages": data.pages});
-            $("#pages").append(pagesHtml);
-            var App = Spine.Controller.sub({
-                el: $("#main"),
-                init: function() {
-                    this.routes({
-                        "/page/:page": function(page) {this.go(page);},
-                        "/tags": function() {this.tags();},
-                        "/tag/:tag": function(param) {this.tag(param);},
-                        "/archive": function() {this.archive();}
-                    });
-                    Spine.Route.setup();
-                },
-                go: function(page) {
-                    page = Math.floor(page.page);
-                    for (var i = 0; i < pages.length; ++i)
-                        pages[i].select = false;
-                    pages[page-1].select = true;
-                    var tmppages = pages;
-                    if (page > 2 && pages.length > 4)
-                        tmppages = pages.slice(page-3);
-                    if (tmppages.length > 5)
-                        tmppages = tmppages.slice(0, 5);
-                    if (pages.length > 4 && tmppages.length < 5)
-                        tmppages = pages.slice(-5);
-                    itemHtml = itemTemplate.render({"posts": arr[page-1], "pages": tmppages});
-                    $("#main").html(itemHtml);
-                },
-                tags: function() {
-                    var ts = {};
-                    var posts = data.posts;
-                    var tf = function() {
-                        for (var i = 0; i < posts.length; ++i) {
-                            var tmp = posts[i].tags.split(" ");
-                            for (var j = 0; j < tmp.length; ++j) {
-                                if (tmp[j].length == 0)
-                                    continue;
-                                if (!(tmp[j] in ts))
-                                    ts[tmp[j]] = 0;
-                                ts[tmp[j]]++;
-                            }
-                        }
-                    }
-                    tf();
-                    posts = data.pages;
-                    tf();
-                    var ans = [];
-                    for (var k in ts) {
-                        ans.push({"name": "#"+k, "size": 100+Math.sqrt(ts[k]-1)*30, "path": "#/tag/"+k});
-                    }
-                    var tagsTemplate = Hogan.compile($("#tagsTemplate").html());
-                    var tagsHtml = tagsTemplate.render({"tags": ans});
-                    $("#main").html(tagsHtml);
-                },
-                tag: function(param) {
-                    var tag = param.tag;
-                    var group = [{"name": "#"+tag}];
-                    var posts = [];
-                    for (var i = 0; i < data.posts.length; ++i) {
-                        var tmp = data.posts[i].tags.split(" ");
-                        if (tmp.indexOf(tag) != -1)
-                            posts.push(data.posts[i]);
-                    }
-                    for (var i = 0; i < data.pages.length; ++i) {
-                        var tmp = data.pages[i].tags.split(" ");
-                        if (tmp.indexOf(tag) != -1)
-                            posts.push(data.pages[i]);
-                    }
-                    group[0].posts = posts;
-                    var tmpTemplate = Hogan.compile($("#archiveTemplate").html());
-                    var tmpHtml = tmpTemplate.render({"group": group});
-                    $("#main").html(tmpHtml);
-                },
-                archive: function() {
-                    var group = [];
-                    var posts = data.posts;
-                    var now = -1;
-                    var name = "";
-                    for (var i = 0; i < posts.length; ++i) {
-                        if (name != posts[i].date.slice(0,4)) {
-                            name = posts[i].date.slice(0,4);
-                            group.push({"name": name, "posts": []});
-                            now++;
-                        }
-                        group[now].posts.push(posts[i]);
-                    }
-                    var tmpTemplate = Hogan.compile($("#archiveTemplate").html());
-                    var tmpHtml = tmpTemplate.render({"group": group});
-                    $("#main").html(tmpHtml);
-                }
-            });
-            new App();
-        },
-        error: function(e) {
-            console.log("init error");
-        }
-    });    
-});
-</script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
+
 </html>
